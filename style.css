@@ -98,10 +98,12 @@
     .textdiv{
         /* background-color: aqua; */
         position: relative;
-        right: 200px;
-        width: 300px;
-        bottom: 270px;
-        padding: 30px;
+        right: 70px;
+        width: 450px;
+        height: 200px;
+        bottom: 240px;
+        padding: 20px;
+        /* background-color: red; */
     }
     .firstdiv{
         /* background-color: red; */
@@ -111,7 +113,121 @@
         font-size: 19px;
         text-align: center;
         width: 290px;
+        line-height: 30px;
         margin: 0 auto;
     }
+    .parentdiv{
+      margin-top: 200px;
+      padding: 10px;
+      /* background-color: aqua; */
+    }
+    .bg{
+      width: 400px;
+      height: 450px;
+      /* position: relative;
+      bottom: 50px; */
+    }
+    .tanya{
+      width: 390px;
+      position: relative;
+      bottom: 38px;
+    }
+    .img1{
+      width: 80px;
+      position: relative;
+      /* right: 5000px; */
+      left: -150px;
+      top: 15px;
+      /* background-color: brown; */
+    }
+    .curves{
+      width: 900px;
+    }
+    .sliderdiv{
+      position: relative;
+      left: 135px;
+      top: -130px;
+    }
+    .namejob{
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin-left: 70px;
+    }
+}
 
+@media (min-width: 900px) {
+  .textdiv{
+    /* background-color: aqua; */
+    position: relative;
+    right: 130px;
+    width: 450px;
+    height: 200px;
+    bottom: 240px;
+    padding: 20px;
+    /* background-color: red; */
+}
+}
+@media (min-width: 1000px) {
+  .textdiv{
+    /* background-color: aqua; */
+    position: relative;
+    right: 190px;
+    width: 450px;
+    height: 200px;
+    bottom: 240px;
+    padding: 20px;
+    /* background-color: red; */
+}
+}
+@media (min-width: 1200px) {
+  .textdiv{
+    /* background-color: aqua; */
+    position: relative;
+    right: 260px;
+    width: 450px;
+    height: 200px;
+    bottom: 240px;
+    padding: 20px;
+    /* background-color: red; */
+}
+.sliderdiv{
+  position: relative;
+  right: 100px;
+}
+}
+@media (min-width: 1300px) {
+  .textdiv{
+    /* background-color: aqua; */
+    position: relative;
+    right: 350px;
+    width: 450px;
+    height: 200px;
+    bottom: 240px;
+    padding: 20px;
+    /* background-color: red; */
+}
+.sliderdiv{
+  position: relative;
+  right: 200px;
+}
+}
+@media (min-width: 1400px) {
+  .textdiv{
+    /* background-color: aqua; */
+    position: relative;
+    right: 350px;
+    width: 450px;
+    height: 200px;
+    bottom: 240px;
+    padding: 20px;
+    /* background-color: red; */
+}
+.sliderdiv{
+  position: relative;
+  left: -40px;
+
+  /* right: 9000px; */
+  
+}
 }
